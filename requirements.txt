@@ -1,0 +1,5 @@
+transformers
+torch
+streamlit
+pyttsx3
+PyPDF2
