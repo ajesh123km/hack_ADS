@@ -5,11 +5,10 @@ from backend.answer_eval import evaluate_answer
 from backend.chatbot import chat_with_summary
 from backend.tts_engine import speak_text
 
+
 st.set_page_config(page_title="Smart Study Assistant", layout="wide")
 st.title("📚 Smart Study Assistant")
-
 st.markdown("Welcome! Choose a feature from the sidebar to begin.")
-
 option = st.sidebar.selectbox("Choose Feature", ["Summarizer", "Question Generator", "Answer Evaluator", "Chatbot", "Text-to-Speech"])
 
 st.write(f"You selected: {option}")
